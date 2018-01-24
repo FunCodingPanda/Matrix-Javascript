@@ -8,9 +8,9 @@ function invertArray(ar) {
   var rows = array.length;
   var columns = array[0].length;
   let newArray = [];
-  for (let i = 0; i < rows; i++) {
+  for (let i = 0; i < columns; i++) {
     newArray[i] = [];
-    for (let j = 0; j < columns; j++) {
+    for (let j = 0; j < rows; j++) {
       newArray[i][j] = parseInt(array[j][i]);
       // console.log(y, x, array[y])
       // console.log('---')
