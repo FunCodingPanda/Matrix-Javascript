@@ -1,4 +1,4 @@
-function invertArray(ar) {
+function transpose(ar) {
   let arra = ar.split("\n");
   array = arra.map(function(el) {
     return el.split(" ")
@@ -18,4 +18,4 @@ function invertArray(ar) {
   }
   return newArray;
 }
-console.log(invertArray("9 8 4 7\n5 4 3 2\n6 4 6 7\n6 58 32 3"));
+console.log(transpose("9 8 4 7\n5 4 3 2\n6 4 6 7\n6 58 32 3"));
